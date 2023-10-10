@@ -1,0 +1,79 @@
+
+> coco@0.0.1 test
+> jest "--coverage" "--watchAll=false"
+
+------------------------|---------|----------|---------|---------|-------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+------------------------|---------|----------|---------|---------|-------------------
+All files               |   72.37 |    27.38 |   40.32 |   71.91 |                   
+ assets                 |     100 |      100 |     100 |     100 |                   
+  back.png              |     100 |      100 |     100 |     100 |                   
+  blur.png              |     100 |      100 |     100 |     100 |                   
+  bookmark.png          |     100 |      100 |     100 |     100 |                   
+  cart.png              |     100 |      100 |     100 |     100 |                   
+  check.png             |     100 |      100 |     100 |     100 |                   
+  clock.png             |     100 |      100 |     100 |     100 |                   
+  close.png             |     100 |      100 |     100 |     100 |                   
+  filter.png            |     100 |      100 |     100 |     100 |                   
+  img1.jpg              |     100 |      100 |     100 |     100 |                   
+  img2.jpg              |     100 |      100 |     100 |     100 |                   
+  img3.jpeg             |     100 |      100 |     100 |     100 |                   
+  img4.png              |     100 |      100 |     100 |     100 |                   
+  location.png          |     100 |      100 |     100 |     100 |                   
+  menu.png              |     100 |      100 |     100 |     100 |                   
+  next.png              |     100 |      100 |     100 |     100 |                   
+  search.png            |     100 |      100 |     100 |     100 |                   
+  star.png              |     100 |      100 |     100 |     100 |                   
+  tab1.png              |     100 |      100 |     100 |     100 |                   
+  tab2.png              |     100 |      100 |     100 |     100 |                   
+  tab3.png              |     100 |      100 |     100 |     100 |                   
+  tab4.png              |     100 |      100 |     100 |     100 |                   
+  user.png              |     100 |      100 |     100 |     100 |                   
+ component              |       0 |        0 |       0 |       0 |                   
+  index.js              |       0 |        0 |       0 |       0 |                   
+ component/button       |      50 |        0 |       0 |      50 |                   
+  button.js             |      50 |        0 |       0 |      50 | 38-47             
+ component/header       |      60 |      100 |   33.33 |      60 |                   
+  header.js             |      60 |      100 |   33.33 |      60 | 39-52             
+ component/image        |   30.76 |    26.66 |   33.33 |   30.76 |                   
+  image.js              |     100 |        0 |     100 |     100 | 5                 
+  imageBackground.js    |       0 |        0 |       0 |       0 | 4-29              
+  imageButton.js        |   66.66 |       40 |      50 |   66.66 | 32                
+ component/input        |     100 |       50 |     100 |     100 |                   
+  searchbar.js          |     100 |       50 |     100 |     100 | 34                
+ component/modal        |   35.29 |        0 |   14.28 |   35.29 |                   
+  multiSelect.js        |   35.29 |        0 |   14.28 |   35.29 | 14-22,58-76       
+ component/safeAreaView |   88.88 |       50 |     100 |   88.88 |                   
+  appRoot.js            |     100 |      100 |     100 |     100 |                   
+  appSafeAreaView.js    |   85.71 |       50 |     100 |   85.71 | 66                
+ component/slider       |   70.58 |       50 |      25 |   70.58 |                   
+  SliderEntry.js        |   16.66 |      100 |       0 |   16.66 | 15-33             
+  SliderEntry.style.js  |     100 |       50 |     100 |     100 | 42                
+  index.style.js        |     100 |      100 |     100 |     100 |                   
+ component/text         |     100 |    66.66 |     100 |     100 |                   
+  textView.js           |     100 |    66.66 |     100 |     100 | 8                 
+ config                 |     100 |      100 |     100 |     100 |                   
+  appConstants.js       |     100 |      100 |     100 |     100 |                   
+ list                   |   28.57 |        0 |       0 |   28.57 |                   
+  userList.js           |   28.57 |        0 |       0 |   28.57 | 33-39             
+ pages/account          |    64.7 |        0 |      25 |    64.7 |                   
+  index.js              |    64.7 |        0 |      25 |    64.7 | 28-61             
+ pages/cart             |     100 |      100 |   33.33 |     100 |                   
+  index.js              |     100 |      100 |   33.33 |     100 |                   
+ pages/home             |   66.66 |      100 |      20 |   66.66 |                   
+  index.js              |   66.66 |      100 |      20 |   66.66 | 13-18             
+ pages/menu             |     100 |      100 |   33.33 |     100 |                   
+  index.js              |     100 |      100 |   33.33 |     100 |                   
+ redux                  |     100 |      100 |     100 |     100 |                   
+  actionType.js         |     100 |      100 |     100 |     100 |                   
+  configureStore.js     |     100 |      100 |     100 |     100 |                   
+ redux/actions          |   78.94 |      100 |   55.55 |   78.94 |                   
+  homeAction.js         |   78.94 |      100 |   55.55 |   78.94 | 11,26,38,42       
+ redux/reducers         |      75 |       50 |     100 |      75 |                   
+  home.js               |   71.42 |       50 |     100 |   71.42 | 17-23             
+  rootReducer.js        |     100 |      100 |     100 |     100 |                   
+ redux/selectors        |     100 |      100 |     100 |     100 |                   
+  homeSelectors.js      |     100 |      100 |     100 |     100 |                   
+ styles                 |     100 |      100 |     100 |     100 |                   
+  commonStyle.js        |     100 |      100 |     100 |     100 |                   
+------------------------|---------|----------|---------|---------|-------------------

@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+Array [
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "flex": 0,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+      ]
+    }
+  />,
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginLeft": undefined,
+              "marginRight": undefined,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 5,
+                "left": 5,
+                "right": 5,
+                "top": 5,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 25,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 25,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+            >
+              <Image
+                isLoading={false}
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/menu.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": 30,
+                      "tintColor": undefined,
+                      "width": 30,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              undefined,
+              Object {
+                "color": "#d56f51",
+                "fontSize": 29,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          TOURX
+        </Text>
+        <View
+          style={
+            Object {
+              "marginLeft": undefined,
+              "marginRight": undefined,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 5,
+                "left": 5,
+                "right": 5,
+                "top": 5,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 25,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 25,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 50,
+                  "width": 50,
+                }
+              }
+            >
+              <Image
+                isLoading={false}
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/user.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": 50,
+                      "tintColor": undefined,
+                      "width": 50,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 48,
+            "fontWeight": "bold",
+            "paddingHorizontal": 20,
+            "paddingVertical": 66.5,
+          }
+        }
+      >
+        Discover 
+A New World
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-start",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F1F2F4",
+              "borderRadius": 16,
+              "flex": 0.95,
+              "flexDirection": "row",
+              "height": 50,
+              "margin": 16,
+              "paddingLeft": 12,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/search.png",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "tintColor": "#ff450d",
+                "width": 20,
+              }
+            }
+          />
+          <TextInput
+            placeholder="Search Places"
+            placeholderTextColor="#ff450d"
+            selectionColor="#000"
+            style={
+              Object {
+                "color": "#000",
+                "fontFamily": undefined,
+                "height": 50,
+              }
+            }
+            tintColor="#ff450d"
+          />
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ff450d",
+              "borderRadius": 16,
+              "height": 50,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 50,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/filter.png",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "tintColor": "#FFFFFF",
+                "width": 20,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        autoplay={true}
+        autoplayDelay={500}
+        autoplayInterval={3000}
+        containerCustomStyle={
+          Object {
+            "marginTop": 20,
+            "overflow": "visible",
+          }
+        }
+        contentContainerCustomStyle={
+          Object {
+            "marginTop": 16,
+            "paddingVertical": 4,
+          }
+        }
+        data={
+          Array [
+            Object {
+              "country": "Turky",
+              "image": Object {
+                "testUri": "../../../src/assets/img1.jpg",
+              },
+              "place": "Cappadocia",
+              "price": "$50.00",
+              "title": "Find out how you spend your money and get better control",
+            },
+            Object {
+              "country": "Turky",
+              "image": Object {
+                "testUri": "../../../src/assets/img2.jpg",
+              },
+              "place": "Cappadocia",
+              "price": "$50.00",
+              "title": "Bring your friends to Zype and win lifetime rewards. Here’s how...",
+            },
+            Object {
+              "country": "Turky",
+              "image": Object {
+                "testUri": "../../../src/assets/img3.jpeg",
+              },
+              "place": "Cappadocia",
+              "price": "$50.00",
+              "title": "Find out how you spend your money and get better control",
+            },
+            Object {
+              "country": "Turky",
+              "image": Object {
+                "testUri": "../../../src/assets/img4.png",
+              },
+              "place": "Cappadocia",
+              "price": "$50.00",
+              "title": "Find out how you spend your money and get better control",
+            },
+          ]
+        }
+        firstItem={1}
+        hasParallaxImages={true}
+        inactiveSlideOpacity={0.7}
+        inactiveSlideScale={0.85}
+        itemWidth={565.44}
+        loop={true}
+        loopClonesPerSide={2}
+        renderItem={[Function]}
+        sliderWidth={744}
+        testID="carousel"
+      />
+    </View>
+  </RCTSafeAreaView>,
+]
+`;

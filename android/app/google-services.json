@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "351035605014",
+    "project_id": "coco-a228e",
+    "storage_bucket": "coco-a228e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351035605014:android:789f11fbe1d22ca7de7537",
+        "android_client_info": {
+          "package_name": "com.coco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351035605014-6p2lalnp0gdlclnl7185c4l6u66cmbk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNEqOcATMmsGTHPx5RoAgKrtV6GyCTHZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351035605014-6p2lalnp0gdlclnl7185c4l6u66cmbk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
